@@ -1,0 +1,71 @@
+:root {
+  --theme-primary: #07AB80;
+  --submit-bg: #07ab800a;
+  --subtle-words: #DDDDDD;
+  --theme-light: #f2faf7;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+.theme-bg {
+  background-color: var(--theme-primary);
+}
+
+.theme-light {
+  background-color: var(--theme-light);
+}
+
+.submit-bg {
+  background-color: var(--submit-bg);
+  color: var(--theme-primary);
+}
+
+.nature {
+  background-image: url(https://wallpaperaccess.com/full/112722.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.words-primary {
+  color: var(--theme-primary);
+}
+
+.subtle-words {
+  color: var(--subtle-words);
+}
+
+.thick-border-theme {
+  border-left: 8px solid var(--theme-primary);
+}
+
+.card-review {
+  width: 50%;
+}
+
+.word-size {
+  font-size: 42px;
+}
+
+.word-size-md {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+  .thick-border-theme{
+    display: none;
+  }
+}
+
+.screen-card{
+  position: absolute;
+  top: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+  .screen-card{
+    position: relative;
+  }
+  
+}
