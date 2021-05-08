@@ -58,14 +58,19 @@
   }
 }
 
-.screen-card{
-  position: absolute;
-  top: 10%;
-}
-
 @media screen and (max-width: 1000px) {
-  .screen-card{
-    position: relative;
+  .video-resize {
+    height: 25vh;
+    width: 85vw;
   }
   
 }
+
+@media screen and (max-width: 1000px) {
+  .card-resize {
+    width: 100%;
+    margin: auto;
+  }
+  
+}
+
