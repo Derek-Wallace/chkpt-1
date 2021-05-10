@@ -25,7 +25,7 @@
 
 .nature {
   background-image: url(https://wallpaperaccess.com/full/112722.jpg);
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
 }
 
@@ -69,6 +69,7 @@
 
 @media screen and (max-width: 1000px) {
   .card-resize {
+    position: relative !important;
     width: 100%;
     margin: auto;
   }
